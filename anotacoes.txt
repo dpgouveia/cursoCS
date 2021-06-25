@@ -1,0 +1,9 @@
+REM configurando PATH para utilizarmos o C# compiler
+set PATH=C:\Windows\Microsoft.NET\Framework64\v4.0.30319;%PATH%
+
+REM Para compilar um programa CS
+REM Apos a compilacao sera gerado um executavel (normalmente com o nome do fonte)
+csc programa.cs
+
+REM Para executar
+programa.exe
